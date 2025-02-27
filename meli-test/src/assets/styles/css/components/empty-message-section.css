@@ -1,0 +1,26 @@
+.section-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 2rem;
+  text-align: center;
+  white-space: pre-line;
+  background-color: #ededed;
+}
+
+.message-container {
+  max-width: 40rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #292929;
+  line-height: 1.5;
+}

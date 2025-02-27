@@ -1,0 +1,14 @@
+@use '../variables';
+.breadcrumb{
+    color: variables.$font-color;
+    font-size: 1rem;
+    padding: 0rem;
+    list-style-type: none;
+}
+.item{
+    display: inline;
+}
+.item:not(:first-child)::before{
+    content: ">";
+    padding: .5rem;
+}

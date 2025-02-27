@@ -1,0 +1,12 @@
+@use '../variables';
+
+.container{
+    width: 100%;
+    max-width: variables.$content-width;
+    margin: auto;
+}
+
+.main{
+    background-color: variables.$background-color;
+    padding-bottom: 4rem;
+}

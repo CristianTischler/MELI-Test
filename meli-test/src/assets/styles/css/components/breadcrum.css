@@ -1,0 +1,15 @@
+.breadcrumb {
+  color: #292929;
+  font-size: 1rem;
+  padding: 0rem;
+  list-style-type: none;
+}
+
+.item {
+  display: inline;
+}
+
+.item:not(:first-child)::before {
+  content: ">";
+  padding: 0.5rem;
+}
