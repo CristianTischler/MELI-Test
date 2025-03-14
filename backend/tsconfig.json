@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",         // Genera los archivos compilados en "dist"
-    "rootDir": "./",            // Usa la raíz "backend/" como código fuente
-    "module": "NodeNext",       // Permite usar "import" y "require"
+    "outDir": "./dist",         
+    "rootDir": "./",            
+    "module": "NodeNext",       
     "moduleResolution": "NodeNext",
     "target": "ES6",
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["./"],           // Incluye todos los archivos en "backend/"
+  "include": ["./"],          
   "exclude": ["node_modules", "dist"]
 }

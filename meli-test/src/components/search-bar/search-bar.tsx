@@ -1,7 +1,6 @@
 import { FC, useState } from "react";
 import "../../assets/styles/css/components/search-bar.styles.css";
 import { LINK, PLACEHOLDER, SEARCH } from "./search-bar.constants";
-// import { SearchBarProps } from "./search-bar.types";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
 export const SearchBar: FC = () => {
@@ -12,6 +11,8 @@ export const SearchBar: FC = () => {
   );
   const navigate = useNavigate();
 
+  //Para el que llegue a leer esto...
+  //Tener en cuenta useCallBack para evitar que se cree una nueva funcion cada vez que se renderiza el componente. Suerte!
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
   };

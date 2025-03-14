@@ -42,7 +42,11 @@ export const SearchResultSection: FC<SearchResultSectionProps> = ({
 
   return (
     <>
-      <meta name="description" content="Busqueda de productos" />
+      <meta
+        name="description"
+        data-testid="meta"
+        content="Busqueda de productos"
+      />
       <div className="container">
         <div className="items-container">
           {items.length > 0 ? (
